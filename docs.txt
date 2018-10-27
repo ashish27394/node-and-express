@@ -16,10 +16,28 @@ like install the exact version
 ************** module 3*****************
 
 *debugging node js
-chalk - chalk provides different color for different results
+*chalk - chalk provides different color for different results
 like green for build successful,
 red for unsuccessful build and etc....
 
+*debug - debug can be worked as an alternative to console.log
+The difference between debug and console.log is that debug will only 
+work in debug mode and not in production mode.
+
+To run debug for specific file we have to import it that file and say that where we are
+var debug = require('debug')('app');
+Here we are saying we are in 'app' file.
+So debug will show the message like 
+ex --> app <whatever msg>
+
+express also uses debug so debug will also return the express if it present.
+
+To run in debug mode 
+command in windows is --> set DEBUG=* & node app.js
+Here * means it will debug everything and show lot of messages in the console 
+You can specify the file you want to debug in place of * to remove the unnecessary noice(results)
+from the debug package in the console
+ex - set DEBUG=app & node app.js
 
 
-
+ 
