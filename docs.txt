@@ -15,3 +15,11 @@ like install the exact version
 ************** module 2 finished *****************
 ************** module 3*****************
 
+*debugging node js
+chalk - chalk provides different color for different results
+like green for build successful,
+red for unsuccessful build and etc....
+
+
+
+
