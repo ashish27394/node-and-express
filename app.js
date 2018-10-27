@@ -10,7 +10,7 @@ var app = express();
 app.use(morgan('tiny'));
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname0, 'views', 'index.html'));
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
 })
 
 app.listen(3000, function(){
