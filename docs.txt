@@ -15,6 +15,7 @@ like install the exact version
 ************** module 2 finished *****************
 ************** module 3*****************
 
+--------------
 *debugging node js
 *chalk - chalk provides different color for different results
 like green for build successful,
@@ -46,3 +47,13 @@ express is using morgan as a middleware
 app.use(morgan('combined')); --> For detailed info
 app.use(morgan('tiny')); --> For small info
 ,etc and many more
+----------------
+
+*Serving Index
+Use sendFile for fetching the html package
+
+use path for making the application route enviroment less
+like for path in windows we use forward slash
+and in linux we use backward slash
+With path we do not need to give slashes and we can use comma 
+
