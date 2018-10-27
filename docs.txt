@@ -39,5 +39,10 @@ You can specify the file you want to debug in place of * to remove the unnecessa
 from the debug package in the console
 ex - set DEBUG=app & node app.js
 
-
- 
+*morgan - morgan will track all the request for the website
+i.e. traffic tracking
+It will give you info about from where request generated
+express is using morgan as a middleware
+app.use(morgan('combined')); --> For detailed info
+app.use(morgan('tiny')); --> For small info
+,etc and many more
