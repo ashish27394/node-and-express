@@ -1,0 +1,16 @@
+*node is js framework
+1)server side
+2)open source
+3)Cross Platform
+4)Javascript is awesome
+
+*Dealing with node versions
+For specific project we might need specific version of node
+For that we can use node version manager(nvm)
+nvm-windows
+
+*npmrc is the cofiguration file for npm
+like install the exact version
+
+************** module 2 finished *****************
+
