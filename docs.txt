@@ -57,3 +57,10 @@ like for path in windows we use forward slash
 and in linux we use backward slash
 With path we do not need to give slashes and we can use comma 
 
+*Putting static css and js files into different folders
+how to access
+Use exptress js pipeline to make it accessible to the project
+ex - app.use(express.static(path.join(__dirname, '/public/')));
+Here we are making public directory accesible to the project
+then in html we can just go from after the public like
+ex - 'css/css/bootstrap.min.css'
