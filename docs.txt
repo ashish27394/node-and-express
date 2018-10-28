@@ -64,3 +64,16 @@ ex - app.use(express.static(path.join(__dirname, '/public/')));
 Here we are making public directory accesible to the project
 then in html we can just go from after the public like
 ex - 'css/css/bootstrap.min.css'
+
+*The above process will not work if we want to upgrade the package 
+b/c first we will upgrade the package and copy paste after that every time 
+so instead of that we should load from that directly
+
+so here we are again using the express middleware to defines paths
+Here '/css' means it will find for the "css/<path>" to load something 
+Here '/js' means it will find for the "js/<path>" to load something 
+preference will be given in the order define in app.js
+
+note : popper is not loading , need to fix
+
+****************module 3 fineshed ******************
